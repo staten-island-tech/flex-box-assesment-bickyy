@@ -7,4 +7,18 @@ $colors: (
 body {
     background-color: rgba(color(primary), 0.4);
 }
+.text {
+    font-family: 'Crete Round', serif;
+    letter-spacing: 2rem;
+    font-size: 2rem;
+    top: 6rem;
+}
+
+html {
+    font-size: 62.5%;
+    padding: 1rem;
+    margin: -2rem;
+}
+
+
 
