@@ -1,0 +1,15 @@
+.header1 {
+    z-index: -2;
+    height: 15vh;
+}
+
+.header1-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate (-50%, -50%);
+            transform: translate (-50%, -50%);
+    font-family: 'Solway', serif;
+    text-align: center;
+    color:  var(--color-mainpink);
+}
