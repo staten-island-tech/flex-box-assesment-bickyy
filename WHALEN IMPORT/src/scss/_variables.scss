@@ -1,0 +1,10 @@
+$colors: (
+    primary: rgb(218, 137, 175),
+    secondary: rgb(103, 174, 221),
+    back:rgb(99, 98, 64),
+    header: rgb(175, 173, 106),
+    text: rgb(255, 235, 205)
+);
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}

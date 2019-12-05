@@ -1,4 +1,10 @@
-.header {
-  background-color: blue;
-  height: 30vh;
+@import "./_variables";
+
+.header{
+  background-color: color(header);
+  height: 10rem;
+  padding: 2rem;
+  font-size: 4rem;
+  display: flex; 
+  justify-content: center;
 }
