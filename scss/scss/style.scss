@@ -1,7 +1,12 @@
-:root {
---color-mainpink: rgb(255, 204, 221);
+@import "_variables.sccs";
+@import "_header1.scss";
+
+
+body {
+    background-color: rgb(color(background), 0.4);
+    color: color(background);
 }
 
 
 
-@import"./_.header1.scss";
+
