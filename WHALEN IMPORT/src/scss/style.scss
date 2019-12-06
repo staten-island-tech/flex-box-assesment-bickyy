@@ -1,9 +1,9 @@
-@import "./_variables.scss";
-@import "./_fonts";
-@import "./_header";
+@import "_variables.scss";
+@import "_fonts.scss";
+@import "_header";
 
 body {
-  background-color: color(back);
+  background-color: $mainwhite;
 }
 
 

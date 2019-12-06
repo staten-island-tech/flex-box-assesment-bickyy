@@ -10,6 +10,9 @@ html {
   background-color: color(header);
   height: 10rem;
   padding: 2rem;
+}
+
+.header1-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,10 +22,11 @@ html {
 }
 
 #title {
-  text-align: center;
+  font-size: 4rem;
+  word-spacing: 1rem;
 }
 
 body {
-  background-color: white;
+  background-color: #333;
 }
 /*# sourceMappingURL=style.css.map */

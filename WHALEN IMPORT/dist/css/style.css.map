@@ -1,12 +1,13 @@
 {
     "version": 3,
-    "mappings": "AEAA,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,wCAAwC;CACtD;;ACAD,AAAA,OAAO,CAAA;EACL,gBAAgB,EFCN,OAAkB;EEA5B,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CACxB;;AHLD,AAAA,IAAI,CAAC;EACH,gBAAgB,ECFT,OAAe;CDGvB",
+    "mappings": "AEAA,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,wCAAwC;CACtD;;AAFD,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,wCAAwC;CACtD;;ACED,AAAA,QAAQ,CAAA;EACN,gBAAgB,EAAE,aAAa;EAC/B,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CACxB;;AAGD,AAAA,MAAM,CAAA;EACJ,UAAU,EAAE,MAAM;CACnB;;AHXD,AAAA,IAAI,CAAC;EACH,gBAAgB,ECHN,KAAkB;CDI7B",
     "sources": [
         "../../src/scss/style.scss",
         "../../src/scss/_variables.scss",
         "../../src/scss/_fonts.scss",
         "../../src/scss/_header.scss",
-        "../../src/scss/_variables.scss"
+        "../../src/scss/_variables.scss",
+        "../../src/scss/_fonts.scss"
     ],
     "names": [],
     "file": "style.css"
