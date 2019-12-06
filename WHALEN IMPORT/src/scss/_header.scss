@@ -1,4 +1,6 @@
 @import "./_variables";
+@import "./_font";
+
 
 .header{
   background-color: color(header);
@@ -7,4 +9,5 @@
   font-size: 4rem;
   display: flex; 
   justify-content: center;
+  word-spacing: 1rem;
 }
