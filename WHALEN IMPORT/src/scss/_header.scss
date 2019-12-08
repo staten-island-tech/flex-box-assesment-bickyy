@@ -3,15 +3,25 @@
 
 
 .header1{
-  background-color: color(header);
   height: 10rem;
   padding: 2rem;
   display: flex;
   justify-content: center;
 }
 
+.header1-text {
+  text-align: center;
+  color: $dogcolor;
+}
 
 #title{
-  text-align: center;
+  font-size: 3rem;
+  margin: 0.5rem; 
+}
+
+
+h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem;
 }
 

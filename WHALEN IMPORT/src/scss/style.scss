@@ -1,9 +1,12 @@
 @import "_variables.scss";
 @import "_fonts.scss";
-@import "_header";
+@import "_header.scss";
+@import "_allimages.scss";
 
 body {
-  background-color: $mainwhite;
+  background-color: $primary;
 }
+
+
 
 

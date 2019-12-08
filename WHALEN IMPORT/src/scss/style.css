@@ -1,18 +1,14 @@
 html {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Mate', serif;
 }
 
 html {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Mate', serif;
 }
 
 .header1 {
-  background-color: color(header);
   height: 10rem;
   padding: 2rem;
-}
-
-.header1-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,12 +17,79 @@ html {
           justify-content: center;
 }
 
+.header1-text {
+  text-align: center;
+  color: #744d13;
+}
+
 #title {
-  font-size: 4rem;
-  word-spacing: 1rem;
+  font-size: 3rem;
+  margin: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+.box {
+  height: 40rem;
+  width: 15rem;
+}
+
+.image {
+  width: 36rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.topleft {
+  height: 10rem;
+  width: 10rem;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  border-radius: 0 0 0 1rem;
+  border: 0.5rem solid white;
+}
+
+.topright {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 0 1rem 0 0;
+  border: 0.5rem solid white;
+}
+
+.middle {
+  height: 10rem;
+  width: 10rem;
+  border: 0.5rem solid white;
+}
+
+.p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bottomleft {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 0 0 0 1rem;
+  border: 0.5rem solid white;
+}
+
+.bottomright {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 0 0 1rem 0;
+  border: 0.5rem solid white;
 }
 
 body {
-  background-color: #333;
+  background-color: #ebaccc;
 }
 /*# sourceMappingURL=style.css.map */

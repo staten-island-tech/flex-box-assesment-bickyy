@@ -1,0 +1,58 @@
+@import "_variables.scss";
+
+// #mainphoto {
+//     height: 5rem;
+//     width: 5rem;
+// }
+
+.box {
+    height: 40rem;
+    width: 15rem;
+}
+
+.image {
+    width: 36rem;
+    display: flex;
+    justify-content: center;
+}
+
+.topleft {
+    height: 10rem;
+    width: 10rem;
+    transform: rotate(90deg);
+    border-radius: 0 0 0 1rem;
+    border: .5rem solid rgb(255, 255, 255);
+}
+
+.topright {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 0 1rem 0 0;
+    border: .5rem solid rgb(255, 255, 255);
+}
+
+.middle{
+    height: 10rem;
+    width: 10rem;
+    border: .5rem solid rgb(255, 255, 255);
+}
+
+.p{
+    display: flex;
+    // align-items: center;
+}
+.bottomleft {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 0 0 0 1rem;
+    border: .5rem solid rgb(255, 255, 255);
+}
+
+.bottomright {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 0 0 1rem 0;
+    // justify-content: flexend;
+    border: .5rem solid rgb(255, 255, 255);
+}
+
