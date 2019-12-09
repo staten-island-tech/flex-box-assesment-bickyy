@@ -6,12 +6,22 @@
 // }
 
 .box {
-    height: 40rem;
-    width: 15rem;
+    position: relative;
+    width: 118rem;
+    height: 33rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .image {
-    width: 36rem;
+    width: 33rem;
     display: flex;
     justify-content: center;
 }
@@ -20,39 +30,52 @@
     height: 10rem;
     width: 10rem;
     transform: rotate(90deg);
-    border-radius: 0 0 0 1rem;
-    border: .5rem solid rgb(255, 255, 255);
+    border-radius: 0 0 0 4rem;
+    border: .5rem solid $dogcolor;
 }
 
 .topright {
     height: 10rem;
     width: 10rem;
-    border-radius: 0 1rem 0 0;
-    border: .5rem solid rgb(255, 255, 255);
+    border-radius: 0 4rem 0 0;
+    border: .5rem solid $dogcolor;
 }
 
 .middle{
     height: 10rem;
     width: 10rem;
-    border: .5rem solid rgb(255, 255, 255);
+    border: .5rem solid $dogcolor;
+}
+.middleone {
+    height: 10rem;
+    width: 10rem;
+    border: .5rem solid $dogcolor;
 }
 
-.p{
-    display: flex;
-    // align-items: center;
+.middlethree {
+    height: 10rem;
+    width: 10rem;
+    border: .5rem solid $dogcolor;
+}
+
+.paragraph{
+    height: 10rem;
+    width: 10rem;
+    color: $dogcolor;
+    border: .5rem solid $dogcolor;
 }
 .bottomleft {
     height: 10rem;
     width: 10rem;
-    border-radius: 0 0 0 1rem;
-    border: .5rem solid rgb(255, 255, 255);
+    border-radius: 0 0 0 4rem;
+    border: .5rem solid $dogcolor;
 }
 
 .bottomright {
     height: 10rem;
     width: 10rem;
-    border-radius: 0 0 1rem 0;
+    border-radius: 0 0 4rem 0;
     // justify-content: flexend;
-    border: .5rem solid rgb(255, 255, 255);
+    border: .5rem solid $dogcolor;
 }
 
