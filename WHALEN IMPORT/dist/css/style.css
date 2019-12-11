@@ -38,9 +38,6 @@ html {
   position: relative;
   width: 118rem;
   height: 33rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,12 +57,16 @@ html {
 
 .image {
   width: 33rem;
+  height: 33%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
 }
 
 .topleft {
@@ -121,6 +122,18 @@ html {
   width: 10rem;
   border-radius: 0 0 4rem 0;
   border: 0.5rem solid #83540d;
+}
+
+.mainimage {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: -7rem;
+  z-index: 1;
 }
 
 body {
